@@ -17,7 +17,7 @@ O tempo de cada volta deverá ser exibido e a volta mais rápida de cada piloto 
 public class MainExec03 {
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null,
-                "Sei que o tempo do sleep é em milisegundos, mas para fins de demonstração, vou apresentar o valor de tempo da volta como se fosse em segundos.");
+                "Sei que o tempo do sleep usa milisegundos, mas para fins de demonstracao, vou apresentar o valor de tempo da volta como se fosse em segundos.");
         Semaphore semaforo = new Semaphore(5);
         for (int i = 0; i < 14; i++) {
             //Cria e inicia as 14 Threads para correrem de acordo com a classe TreadCarro no package controller.
